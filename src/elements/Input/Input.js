@@ -2,7 +2,7 @@ import React from 'react';
 
 const Input = (props) => {
     return (
-        <input type="text" placeholder="Add todo" />
+        <input type="text" name="addTodo" placeholder="Add todo" />
     )
 }
 

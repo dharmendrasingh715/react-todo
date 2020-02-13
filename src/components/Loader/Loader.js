@@ -2,15 +2,7 @@ import React from "react";
 
 const Loader = () => {
     return  (
-        <div className="ui center aligned placeholder">
-            <h4>You have no todos</h4>  
-            <div className="full line"></div>
-            <div className="full line"></div>
-            <div className="full line"></div>
-            <div className="full line"></div>
-            <div className="full line"></div>
-            <div className="full line"></div>
-        </div>
+        <h3><i className="icon exclamation"></i> No Todos </h3>
     )
 }
 

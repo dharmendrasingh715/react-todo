@@ -24,3 +24,11 @@
 .ui.placeholder {
     max-width: 100%;
 }
+
+.item {
+    cursor: pointer;
+}
+
+.item.completed .description {
+    text-decoration: line-through;
+}

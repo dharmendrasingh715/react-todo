@@ -4,7 +4,7 @@ const Button = (props) => {
     const iconClass = `icon ${props.iconType}`;
     const btnClass = `ui ${props.btnSize} ${props.btnColor} button`
     return (
-        <button className={btnClass} type={props.btnType}>
+        <button className={btnClass} type={props.btnType} onClick={props.clickHandler} data-key={props.dataKey}>
             <i className= {iconClass}></i>
             {props.btnText}
         </button>
